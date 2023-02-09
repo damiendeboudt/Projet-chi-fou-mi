@@ -41,6 +41,9 @@ h2{
     text-decoration-line:overline;
     margin-bottom: 4rem;
 }
+#result > h2 {
+    margin-bottom: 1rem;
+}
 body{
     background-image: url("img/background.png");
     background-size: cover;
@@ -50,4 +53,8 @@ body{
     font-family: fantasy;
     font-size: 3rem;
 
+}
+#round-result {
+    font-size: 2rem;
+    margin-bottom: 3rem;
 }
