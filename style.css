@@ -58,3 +58,42 @@ body{
     font-size: 2rem;
     margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 1000px) {
+
+    button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 4rem;
+    }
+    #result{
+        display: flex;
+        margin-left: 2rem;
+        flex-direction: column;
+        margin-top: 2em;
+        font-size: 2rem;
+    }
+    #score-joueur, #score-IA {
+        font-family: fantasy;
+        font-size: 2rem;
+
+    }
+    #round-result {
+        font-size: 1.4rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
